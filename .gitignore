@@ -1,5 +1,30 @@
+# Virtual environment
 venv/
+.venv/
+ENV/
+env/
+
+# Python cache
 __pycache__/
+*.py[cod]
 *.pyc
-database/records.db
+
+# Model & database (important for ML projects)
 models/model.pkl
+database/records.db
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# Streamlit
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
